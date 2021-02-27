@@ -212,5 +212,43 @@ Rows: Sales Region, Prod Category - Filter - Wildcard - Apply
 Data Area: SUM(Order Total)
 
 
-//
+//CREATE A CONDITION FILTER:
+Filter - Condition - By Field: 
+
+
+//CREATE A TOP FILTER:
+eg. Tree Map
+Color: SUM(Order Total)
+Size: SUM(Order Total)
+Text: Sales Region
+Filter Card: Sales Region - Top - By Field: Top 3 by, Oder Total, SUM
+
+
+//EDIT, CLEAR AND DELETE FILTERS:
+Edit Filter - None
+Worksheet Menu - Clear - Filters
+Drag 
+
+
+//SHOW OR HIDE SORTING CONTROLS:
+Worksheet Menu - Show Sort Controls 
+
+
+//FILTER DATA USING PARAMETERS:
+eg. Tree Map
+Color: SUM(Order Total)
+Size: SUM(Order Total)
+Text: Sales Region
+Measures: Order Total - Right click - Parameter - MIN, MAX, Parameter Name
+Filters: Sales Region - Filters - Top - Parameter
+
+
+//EDIT OR DELETE PARAMETERS:
+Parameters: Sales Region Parameter - Right click - Parameters - Range
+
+
+//DEFINE A GROUP:
+Rows: Cust Name
+Text: SUM(Order Total)
+Filters: Order Type: Wholesales
 
