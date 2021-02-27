@@ -175,7 +175,42 @@ Analysis Menu - Create Calculated field - Distinct Products - COUNT([Prod Name])
 //DISPLAY THE SUMMARY CARD:
 Rows: Employee Job Title
 Data Area: Order Total
-Worksheet Menu - Show Summary 
- 
+Worksheet Menu - Show Summary (SUM, AVERAGE, MINIMUM, MAXIMUM, MEDIAN)
 
+
+//CALCULATE PERCENTAGES WITHIN A TABLE:
+Rows: Employee Job Title
+Columns: YEAR(Order Date), QUARTER(Order Date)
+Data Area: SUM(Order Total)
+Analysis Menu - Percentage of - (Column, Rows, Table, Pane (Surrounded by boundaries))
+
+
+//FORECAST FUTURE VALUES:
+Analytics tab of Navigation pane - Drag Forecast
+Columns: QUARTER(Order Date) - Right click - More(Above Exact Date) - Custom - Quarters, Date Value selected - Okay
+Rows: SUM(Order Total)
+
+
+//SORT BASED ON FIELD'S VALUES:
+Toolbar - Sort according to Ascending or Descending icon
+Data Area: SUM(Order Total)
+Rows: Sales Region - Sort - Sort by: Field - Sort Order: Ascending - Field Name: Number of Records - Aggregation: SUM
+
+
+//CREATE A MULTILEVEL SORT:
+Rows: Sales Region, Prod Category - Sort - Sort by: Nested - Sort Order: Descending - Field Name: Order Total - Aggregation: SUM
+Data Area: SUM(Order Total)
+
+
+//CREATE A SELECTION FILTER:
+Rows: Sales Region, Prod Category - Filter - General - Apply
+Data Area: SUM(Order Total)
+
+
+//CREATE A WILDCARD FILTER:
+Rows: Sales Region, Prod Category - Filter - Wildcard - Apply
+Data Area: SUM(Order Total)
+
+
+//
 
