@@ -72,5 +72,110 @@ Data Dource - MANAGE DATA (Left side icon before Sort fields)
 
 //DISPLAY THE DATA UNDERLYING A WORKBOOK:
 eg. Tree Map using Product Category
+Data Menu - Sales by region (Red30TechData) - View Data
+
+//ADD. DUPLICATE AND RENAME WORKSHEETS:
+Sheet2 Tab on the bottom
+Rows: YEAR(Order Date) -> MONTH(Order Date)
+Data Area: SUM(Order Total)
+Show Me: Line
+Right click Sheet2 -  Duplicate
+
+//REORDER, CLEAR, AND DELETE WORKSHEETS:
+CLEAR: Worksheet - Clear - Sheet
+Ctrl+z (Undo) or Ctrl Y (Redo)
+
+//CHANGE A WORKSHEET'S TAB COLOR:
+Right click on the shheet tab on the bottom - Color - Select Color (Highlight)
+
+//SHOW OR HIDE WORKSHEET ELEMENTS:
+Hide: For Marks Card: Click on the down arrow and then Hide Card
+If Wanna get back: Worksheet Menu - Show Cards - Reset Cards
+Hide Navigations pane (contains Data and Analytics on the L.H.S): Minimizes icon
+
+//SAVE YOUR CHANGES:
+Tool Bar: 4th icon from left - Save
+Ctrl + S
+File Menu - Save
+If working with external data - Revert to Saved - F12 key or File Menu - Revert to saved (only for twb file type)
+
+//SAVE YOUR WORKBOOK AS PDF FILE:
+PDF (PORTABLE DOCUMENT FORMAT)
+File Menu - Print to Pdf
+
+//CREATE A PACKAGED WORKBOOK: (carries its data with it)
+.twb file File Menu - Export Packaged Workbook - .twpb file type
+
+
+//EXPORT DATA TO CSV FILE:
+Data Menu - Point to current Data Source - Export Data to CSV
+
+
+//EXPORT VISUALIZATIONS TO POWERPOINT:
+File Menu - Export as Powerpoint
+
+
+//PRESENT TABLEAU OPERATORS AND BUILT IN FUNCTIONS:
++ for addition (including dates) and string concatenation
+- for subtraction (including dates) and negation
+* for multiplication
+/ for division
+% for modular division, which returns the remainder
+^ for exponents
+=, >, <, >=, <=, <> comparison operators
+AND, OR, NOT Logical operators
+Commonly Used Functions:
+SUM, AVG, MIN, MAX, STDDEV
+ABS returns absolute value (dist from zero of a number)
+CEILING rounds a number up to the next integer
+FLOOR rounds a number down to the previous integer
+ROUND 
+
+
+//CREATE A CALCULATED FIELD:
+Analysis Menu - Create Calculated field - 
+eg. [Price]*[Quantity] - Okay
+
+
+//CREATE A CALCULATED FIELD ON A SHELF:
+Double Click on any shelf available eg. Doucble click on Columns shelf - [Price] * [Quantity]
+Drag from Columns area to Measures Area
+
+
+//ADD A TABLE CALCULATION:
+eg. Sales by category and then quarter
+Columns: Product Category
+Rows: YEAR(Order Date), QUARTER(Order Date)
+Marks Card - Quick Table Calculation - eg. Percent, Running Total, etc
+Marks Card - Edit Table Calculations - 
+
+
+//USE LEVEL OF DETAILED EXPRESSIONS:
+eg. Columns: QUARTER(Order Total)
+Rows: [Order Total] - {AVG([Order Total])}
+
+
+//CREATE CALCULATION IN DIALOG BOXES:
+eg. Text: SUM(Order Total)
+Rows: Prod Category
+Right Click Prof Category - Filter - Condiditon - By Formula - [Prod Category] >= "eBooks"
+Apply - Okay
+
+
+//CALCULATE AVERAGEM MEDIANS, MINIMUMS, AN MAXIMUMS:
+Measure Values Card -  SUM(Total Order) - Measure(SUM) - AVERAGE
+
+
+//COUNT OCCURENCES AND DISTINCT VALUES:
+Rows: Prod Category
+Data Area: Number of Records
+Analysis Menu - Create Calculated field - Distinct Products - COUNT([Prod Name])
+
+
+//DISPLAY THE SUMMARY CARD:
+Rows: Employee Job Title
+Data Area: Order Total
+Worksheet Menu - Show Summary 
+ 
 
 
