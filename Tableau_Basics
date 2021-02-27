@@ -381,6 +381,56 @@ Click blank area in the data field of the line chart - Annotate - Area, Point, M
 Click line to select it - Marks Card - Color, Labels, Size
 
 
+//CHANGE COLOR SEQUENCE IN CHARTS:
+Marks Card: Color
+
+
+//ADD TREND LINE TO A CHART:
+Navigation Area - Analytics tab - Trend Line
+Right Click - Edit all trend lines 
+
+
+//ADD REFERENCE LINES, DISTRIBUTIONS AND BOXES:
+Right click on the y axis - Add reference line
+
+
+//MANAGE VISUALIZATION ANIMATIONS:
+Format Menu - Animations 
+
+
+//CREATE A BASIC MAP:
+Double Click State
+Drag
+indicator of unknown - Edit Locations 
+
+
+//ADD AND REMOVE MAP LAYERS:
+Zip Code
+Map Menu - Background Maps - 
+Map Menu - Map Layers - 
+
+
+//ENHANCE MAP ANALYSIS USING DISTANCE MEASUREMENT TOOLS:
+Vertical Toolbar on the map - Right arrow - Radial selection tool - Click and start dragging to see the radius
+
+
+//DISABLE PAN AND ZOOM IN MAPS:
+Verical tool bar
+Scrool of mouse
+Map Menu - Map Options - Allow pan and zoom checkbox
+
+
+//DEFINE CUSTOM REGIONS:
+Vertical tool bar - Righ arrow - Rectangular selection (A)
+Drag and select - Pin icon Sort
+
+
+//CREATE A DASHBOARD:
+Dashboard Menu - 
+Dashboard tab/button -
+Drag over 
+
+
 
 
 
