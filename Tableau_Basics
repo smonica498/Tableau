@@ -251,4 +251,141 @@ Parameters: Sales Region Parameter - Right click - Parameters - Range
 Rows: Cust Name
 Text: SUM(Order Total)
 Filters: Order Type: Wholesales
+Select the 2 Customers to group - Right Click - paper pin icon Group Members
+
+
+//DEFINE A GROUP FOR OTHER VALUES:
+Rows: Prod Category(group)
+Text: SUM(Order Total)
+Dimensions pane - Prod Category(group) - Edit Group -
+On rows shelf Prod Category(group) - Include 'Other'
+
+
+//FIND MEMBERS OF A GROUP:
+On rows shelf Prod Category(group) - Edit Group - Find - Add to
+
+
+//EDIT AND DELETE GROUPS:
+Ungroup
+Rename
+
+
+//DEFINE A SET:
+Select N central East and Northeast - Create Set 
+Sets created in the Sets pane on the left
+If wanna filter then, Drag NE to Filters that contains the set items
+
+
+//CREATE SUMMARIES USING SETS:
+Text: SUM(Order Total)
+Drag set NE before Sales Region (orange line) in the rows
+Rows: IN/OUT(NE) Sales Region
+
+
+//COMBINE SETS:
+SETS pane: Click on the sets and then right click - Create Combined Set
+
+
+//EDIT AND DELETE SETS:
+Right click - Edit Sets
+
+
+//CREATE A CROSSTAB/Pivottable:
+Text: SUM(Number of Records)
+Rows: Prod Category, Sales Region
+Worksheet Menu - Duplicate as Crosstab
+New worksheet is created and then Drag Prod Category to Rows
+
+
+//UNPIVOT A CROSSTAB:
+Drag how you want, order at the pills matter
+
+
+//ADD TOTALS AND SUBTOTALS TO A CROSSTAB:
+Analysis Menu - Totals - Show Row Grand Totals, Show Column Grand Totals 
+
+
+//CREATE COLUMN AND STAKED COLUMN CHARTS:
+BAR CHARTS: Show Me - Bar Chart
+
+
+//CREATE LINE CHARTS AND AREA FILL CHARTS:
+Date, time data
+Columns: YEAR(Order Date), SUM(Order Total)
+Show Me: Line Chart
+
+
+//CREATE PIE CHARTS:
+Show Me: Pie chart
+
+
+//SCATTER PLOT:
+Columns: SUM(Time since previous order)
+Rows: SUM(Order Total)
+To see scatter plot but rn only one point, change measures to values
+Analysis Menu - Deselect Aggregate Measures
+
+
+//IDENTIFY DATA CLUSTERS:
+Columns: Income
+Rows: Sales Total
+Analytics Tab on the Navigation pane - Drag Clusters 
+Edit Clusters, Describe Clusters
+
+
+//CREATE HISTOGRAMS:
+Drag Order Total to Data Area
+Filters: Order Type - Wholesale, Prod Name - Drone
+Show Me: Histogram
+
+
+//SUMMARIZE DATA USING SMART HISTOGRAM:
+Dimensions: Right Click on Order Total(bin) - Right click - Edit Bins
+
+
+//CREATE TREEMAP:
+Rows: Prod Category
+Order Total to Data Area
+Show Me: Tree Map
+
+
+//CHANGE THE VISUAL SUMMARY TYPE:
+Show Me
+
+
+//CHANGE APPEARANCE OF YOUR DATA:
+Format - Font, Shading, Boarders
+
+
+//RESIZE A VISUALIZATION:
+Resize 
+
+//DISPLAY A VISUALIZATION IN PRESENTATION MODE:
+Presentation Mode (F7)
+
+
+//CREATE A HIGHLIGHT TABLE:
+Show Me: Highlight Table
+
+
+//DISPLAY VISUALIZATION IN TOOLTIP:
+Marks Card: Tooltip
+Insert - Sheets - 
+
+
+//ANNOTATE A VISUALIZATION:
+Click blank area in the data field of the line chart - Annotate - Area, Point, Mark
+
+
+//FORMAT CHART ELEMENTS:
+Click line to select it - Marks Card - Color, Labels, Size
+
+
+
+
+
+
+
+
+
 
