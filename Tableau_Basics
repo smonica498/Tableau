@@ -1,0 +1,76 @@
+Tableau Basics:
+
+//CONNET TO DATA SOURCE:
+Select and then drag right to the datapane
+Sheet: Rows and Columns
+
+
+//JOIN RELATED DATA SOURCES:
+Data Source - Connections - Add
+
+
+//JOIN DATA WITH INCONSISTENT FIELD NAMES:
+Connect panel - Select Excel file - Drag 2 tabes to the right datapane - Edit Relationship dialog box - then select relationships
+
+
+//CLEAN UP DATA SOURCE:
+If the headings of the data comes as a data then use Data Interpreter
+Check on the left said box - Cleaned with DATA INTERPRETER - to see correct column headers
+
+
+//REORDER FIELDS IN VISUALIZATION:
+eg. Rows: A1 A2
+So, A1 lists and then within A1, we can see A2
+A1 A11
+   A12
+   A13
+   A14
+A2 A21
+   A22
+   A23
+   A24
+   A25
+   
+eg. Columns: A1
+    Rows: A2
+    A11 A12 A13
+A21 
+A22
+A23
+A24
+
+
+//CHANGE THE SUMMARY OPERATION:
+Sheet 1- Rows: A1
+Values pane: V1
+Marks card: SUM(V1)
+Right click on SUM(V1) - Measure(Sum) - List of summary operations to choose from eg. Average, Median, Count, Maximum, etc
+
+
+//SPLIT TEXT INTO MULTIPLE COLUMNS:
+eg. For Data1 Table, wanna split Customer Name column into 2 columns  First Name & Last Name
+Right side above drop down arrow - SPLIT or CUSTOM SPLIT
+
+
+//PRESENT DATA USING STORYLINES:
+eg. 3 sheets: Sales by Title, Sales by Quarter, Category Order Count
+Click on the bottom side 3rd one: NEW STORY
+Drag Sales by Title to Drag a sheet here area
+ADD A CAPTION: Data for 2017 to 2019
+EDIT TITLE: Sales Summary
+
+TO CREATE A NEW STORY POINT: Click on BLANK 
+Drag Sales by Quarter to Drag a sheet here area
+ADD A CAPTION: Sales by Quarter
+BLANK
+Drag Category Order Count to Drag a sheet here area
+ADD A CAPTION: Order count by category and year
+
+
+//DISPLAY SOURCE METADATA:
+Data Dource - MANAGE DATA (Left side icon before Sort fields)
+
+//DISPLAY THE DATA UNDERLYING A WORKBOOK:
+eg. Tree Map using Product Category
+
+
