@@ -425,10 +425,32 @@ Vertical tool bar - Righ arrow - Rectangular selection (A)
 Drag and select - Pin icon Sort
 
 
-//CREATE A DASHBOARD:
+//CREATE A DASHBOARD: (4 in 1 dashboard)
 Dashboard Menu - 
 Dashboard tab/button -
 Drag over 
+
+
+//ARRANGE AND RESIZE DASHBBOARD ELEMENTS:
+Sheets section - Go to sheet button
+Resize Manually
+
+
+//REPLACE A WORKSHEET IN A DASHBOARD QUICKLY:
+Click the sheet you wanna remove/swap in the dashboard visualization - Go to sheet section and select the one sheet you wanna swap with - Click on New icon Swap sheets
+
+
+//DEFINE A FILTER ACTION:
+Right click - Floating 
+Right side Filter icon 
+
+
+//DEFINE A HIGHLIGHT ACTION:
+Dashboard Menu - Actions - Add Action - Highlight
+
+
+//DEFINE PARAMETER ACTIONS:
+Worksheet: Navigation pane - Dimensions - Drop down - Create Parameter - 
 
 
 
